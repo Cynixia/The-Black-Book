@@ -2,8 +2,9 @@
   "legacyEditor": false,
   "defaultViewMode": "preview",
   "livePreview": true,
-  "attachmentFolderPath": "/",
+  "attachmentFolderPath": "Attachments",
   "showLineNumber": false,
   "readableLineLength": true,
-  "strictLineBreaks": false
+  "strictLineBreaks": false,
+  "communityThemeSortOrder": "release"
 }
