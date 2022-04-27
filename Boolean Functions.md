@@ -3,7 +3,7 @@
 $$L(D,X,A)=D\bar{X}+A$$
 A Boolean equation contains *literals* and *terms* as operands of [[Logical Operations|logical operations]]. Boolean functions can be simplified by applying [[Boolean algebra]].
 
-Boolean functions are typically expressed in [[Standard Form of a Boolean Function|standard form]].
+Boolean functions are typically expressed in [[Standard Forms of a Boolean Function|standard form]].
 
 
 ## Literals
