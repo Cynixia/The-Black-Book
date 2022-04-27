@@ -1,0 +1,28 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 24.90787">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+        stroke: #8ff4dd;
+      }
+
+      .cls-1 {
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: #8ff4dd;
+      }
+
+      .cls-3 {
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <title>NOTGate</title>
+  <g>
+    <path class="cls-1" d="M55.194,72H64M27.33978,72H14" transform="translate(-14 -59.54607)"/>
+    <path class="cls-2" d="M27.29824,59.54607V84.45393l1.1985-.59056L51.30289,72.74689V71.25311L28.49674,60.13663Zm1.66747,2.6749L49.04486,72,28.96571,81.779Z" transform="translate(-14 -59.54607)"/>
+    <path class="cls-3" d="M55.10681,72a2.2233,2.2233,0,1,1-2.22329-2.2233A2.2233,2.2233,0,0,1,55.10681,72Z" transform="translate(-14 -59.54607)"/>
+  </g>
+</svg>
