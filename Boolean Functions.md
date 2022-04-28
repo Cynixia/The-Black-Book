@@ -1,7 +1,7 @@
 # Boolean Functions
 **A binary variable function defined by a Boolean equation.**
 $$L(D,X,A)=D\bar{X}+A$$
-A Boolean equation contains *literals* and *terms* as operands of [[Logical Operations|logical operations]]. Boolean functions can be simplified by applying [[Boolean algebra]].
+A Boolean equation contains *literals* and *terms* as operands of [[Logical Operations|logical operations]]. Boolean functions can be simplified by applying [[Boolean Algebra]].
 
 Boolean functions are typically expressed in [[Standard Forms of a Boolean Function|standard form]].
 

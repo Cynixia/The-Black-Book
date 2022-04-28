@@ -1,0 +1,26 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 24.88416">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #8ff4dd;
+      }
+
+      .cls-1 {
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        fill: #8ff4dd;
+      }
+    </style>
+  </defs>
+  <title>Buffer</title>
+  <path id="path3059" class="cls-1" d="M122,151h14" transform="translate(-86 -138.55792)"/>
+  <path id="path3061" class="cls-2" d="M100,151H86" transform="translate(-86 -138.55792)"/>
+  <path id="path2638" class="cls-3" d="M99.28558,138.55792v24.88416l1.19736-.59,22.78445-11.1059L124.84651,151l-1.57912-.74618-22.78445-11.1059Zm1.66589,2.67236L121.0115,151l-20.06,9.76972Z" transform="translate(-86 -138.55792)"/>
+</svg>

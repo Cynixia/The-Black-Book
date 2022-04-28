@@ -2,7 +2,7 @@
 **A [[Boolean Functions|function]] whose output values complements that of another function.**
 
 The complement of a function can be found in two ways:
-- [[Boolean Algebra#DeMorgan's Laws|DeMorgan's Laws]]
+- [[DeMorgan's Laws]]
 - Complementing each [[Boolean Functions#Literals|literal]] of its [[Duality#Boolean Algebra|dual]].
 
 ## Example - DeMorgan's Theorem

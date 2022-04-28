@@ -1,7 +1,7 @@
 # Gate Input Cost
 **The number of inputs to basic logic gates in an implementation.**
 
-Gate input cost, GIC, is typically *only* considered in circuits with AND, OR, and NOT gates.
+Gate input cost, GIC, is typically *only* considered in circuits with basic [[Logical Operations|logic gates]]; AND, OR, and NOT gates.
 
 It can be found graphically from a logic diagram or numerically using [[Standard Forms of a Boolean Function#SOP POS form|SOP/POS equations]].
 
@@ -19,3 +19,12 @@ Thus, the gate input cost is $9$.
 ![[GateInputCostCircuit.svg|500]]
 
 ## GIC of other gates
+### NAND and NOR
+The *equivalent* GIC of [[Universal Gates|NAND and NOR]] gates is $3$.
+
+![[NANDNOREquivalentGIC.svg]]
+
+### XOR and XNOR
+The *equivalent* GIC of [[Boolean Algebra#Exclusive OR and Exclusive NOR|XOR and XNOR]] gates is $7$.
+
+![[XORXNOREquivalentGIC.svg]]

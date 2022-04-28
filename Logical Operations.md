@@ -1,5 +1,5 @@
 # Logical Operations
-The three basic logical operations in [[Boolean algebra]] are
+The three basic logical operations in [[Boolean Algebra]] are
 - Conjunction - AND
 - Disjunction - OR
 - Negation - NOT

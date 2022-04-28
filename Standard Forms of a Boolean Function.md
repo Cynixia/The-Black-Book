@@ -1,5 +1,5 @@
 # Standard Forms of a Boolean Function
-There are two pairs of dual *standard* or *canonical* forms of Boolean Functions. Both contain only [[minterms and maxterms]].
+There are two pairs of dual *standard* or *canonical* forms of Boolean Functions. Both contain only [[Minterms and Maxterms]].
 - Minterm canonical form - maxterm canonical form
 - Sum of products - product of sums
 
@@ -34,7 +34,7 @@ The previous example can be expressed in the following maxterm canonical form.
 $F(X,Y,Z)=\prod M(1,3,4,6)$
 
 ## SOP/POS form
-These forms are similar to minterm/maxterm canonical form but *do not* need all variables in every term. They are the simplified forms derived using [[Boolean algebra]] and can be directly implemented as a *two-level circuit*.
+These forms are similar to minterm/maxterm canonical form but *do not* need all variables in every term. They are the simplified forms derived using [[Boolean Algebra]] and can be directly implemented as a *two-level circuit*.
 
 ### Sum of products form
 **The expression of a function as a logical product (OR) of AND terms.**
