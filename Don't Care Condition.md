@@ -1,4 +1,4 @@
-# Don't Care Conditions
+# Don't Care Condition
 **A particular [[Boolean Functions|Boolean function]] condition, input or output, which is unspecified.**
 
 Typically an output condition is *unspecified* because its input condition *never occurs*.

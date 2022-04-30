@@ -19,11 +19,22 @@ Synchronous circuits are generally *more stable* and are *easier to design*.
 ## Asynchronous sequential circuits
 **Sequential circuits whose outputs change whenever the inputs change.**
 
-Asynchronous circuits commonly use *time delay devices* as storage elements. Time delay may be introduced by propagation delay instead, and therefore asynchronous circuits can be considered as combinational circuits with *feedback*.
+Asynchronous circuits commonly use *time delay devices* as storage elements. Time delay may be introduced by propagation delay instead, and therefore asynchronous circuits can be considered as just combinational circuits with *feedback*.
 
 ## Storage elements
-Storage elements are characterised by their number of inputs and how the inputs affect the their state.
-
 The two types of storage elements used in sequential circuits are:
-- [[Latches]]
-- [[Flip-flops]]
+- [[Latch|Latches]]
+- [[Flip-flop|Flip-flops]]
+
+Storage elements are characterised by their number of inputs and how the inputs affect  their state.
+
+## Analysis of sequential circuits
+Sequential circuits are described algebraically using [[State Equation|state equations]], in tabular form using [[State Table|state tables]], and graphically using [[State Diagram#Finite state machines|state diagrams]]. 
+
+A sequential circuit using [[Flip-flop|flip-flops]] can further be described by 
+
+## Models of sequential circuits
+Sequential circuits are mathematically modelled as [[Finite State Machine|finite state machines]].
+
+## Optimisation of sequential circuits
+Sequential circuits are optimised through the process of [[state reduction]].

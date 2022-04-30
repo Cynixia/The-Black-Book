@@ -1,6 +1,6 @@
 # Buffer
 **A gate that acts as an electrical amplifier between circuits.**
-$$F=X$$
+
 ![[Buffer.svg|200]]
 
 Buffers isolate their input and output circuits and also improves voltage and current levels so stay within range for logical circuits.
@@ -10,7 +10,7 @@ Buffers isolate their input and output circuits and also improves voltage and cu
 
 | EN  | IN  | OUT |
 |:---:|:---:|:---:|
-| $0$ | $X$ | $Z$ |
+| $0$ | $\times$ | $Z$ |
 | $1$ | $0$ | $0$ |
 | $1$ | $1$ | $1$ |
 

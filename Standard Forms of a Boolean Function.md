@@ -37,7 +37,7 @@ $F(X,Y,Z)=\prod M(1,3,4,6)$
 These forms are similar to minterm/maxterm canonical form but *do not* need all variables in every term. They are the simplified forms derived using [[Boolean Algebra]] and can be directly implemented as a *two-level circuit*.
 
 ### Sum of products form
-**The expression of a function as a logical product (OR) of AND terms.**
+**The expression of a function as a logical product (OR) of AND terms for which the function value is 1.**
 
 #### Example
 $F=\bar{Y}+\bar{X}Y\bar{Z}+XY$
@@ -45,7 +45,7 @@ $F=\bar{Y}+\bar{X}Y\bar{Z}+XY$
 ![[SumOfProductsCircuit.svg|500]]
 
 ### Product of sums form
-**The expression of a function as a logical sum (AND) of OR terms.**
+**The expression of a function as a logical sum (AND) of OR terms for which the function value is 0.**
 
 #### Example
 $F=X(\bar{Y}+Z)(X+Y+\bar{Z})$

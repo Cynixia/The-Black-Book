@@ -4,7 +4,7 @@
 It is the [[Duality|dual]] of a [[decoder]] circuit.
 
 ## $1$-of-$n$ encoder
-$1$-of-$n$ encoders can only accept *one* high input at any time. The most common encoders of this type are $2^n$-to-$n$ encoders.
+$1$-of-$n$ encoders can only accept *one* HIGH input at any time. The most common encoders of this type are $2^n$-to-$n$ encoders.
 
 ### $2^n$-to-$n$ encoder
 $2^n$-to-$n$-line encoders can be thought of as a circuit that encodes a decimal number, represented by a unique input line, and outputting its binary equivalent.
@@ -23,7 +23,7 @@ $A_{0}=D_{1}D_{2}\qquad A_{1}=D_{2}D_{3}$
 ![[4to2Encoder.svg|450]]
 
 ## Priority encoder
-A priority encoder only outputs according to the *most significant* input that is $1$. Thus, priority encoders can accept *more than one* high input at a time.
+A priority encoder only outputs according to the *most significant* input that is $1$. Thus, priority encoders can accept *more than one* HIGH input at a time.
 
 Priority encoders also have an additional output called the *valid* output, which distinguishes between when all inputs are off and when $D_0$ is off.
 

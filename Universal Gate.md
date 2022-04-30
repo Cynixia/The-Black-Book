@@ -1,4 +1,4 @@
-# Universal Gates
+# Universal Gate
 **A logic gate that can implement any Boolean function.**
 
 NAND and NOR gates are both universal gates. These two gates are composed of the [[Logical Operations|basic logic gates]] according to [[DeMorgan's Laws]].

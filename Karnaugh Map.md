@@ -9,7 +9,7 @@ The cells are ordered in *Gray code* and each cell corresponds to a [[Minterms a
 
 Cells are filled with the *output value* expression of the minterm input combination they represent.
 
-Cells may also be filled with [[don't care conditions]], which can be used as either $1$s or $0$s.
+Cells may also be filled with [[Don't Care Condition|don't care conditions]], which can be used as either $1$s or $0$s.
 
 A K-map grid is *toroidally* connected, and cells whose minterms differ by *only one* literal are *adjacent* to each other. In the following grid the dot-marked cells are adjacent.
 
@@ -43,12 +43,12 @@ Prime implicants correspond to rectangles containing *as many* squares as possib
 Essential prime implicants correspond to rectanges containing at least one cell with a $1$ *not included* in any other prime implicant.
 
 ### Example
-Simplifying $F(A,B,C,D)=\sum m(1,3,7,11,15)$ with [[Don't Care Conditions]] $d(A,B,C,D)=\sum m(0,2,5)$.
+Simplifying $F(A,B,C,D)=\sum m(1,3,7,11,15)$ with [[Don't Care Condition|don't care conditions]] $d(A,B,C,D)=\sum m(0,2,5)$.
 
 ![[4x4KMapExample.svg|500]]
 
 $\therefore F(A,B,C,D)=\bar{A}D+CD$
 
-Note the inclusion of [[don't care conditions]] in $\bar{A}D$. $CD$ is an *essential prime implicant* whilst $\bar{A}D$ is just a *prime implicant* as it can also be replaced with $\bar{A}\bar{B}$.
+Note the inclusion of a [[don't care condition]] in $\bar{A}D$. $CD$ is an *essential prime implicant* whilst $\bar{A}D$ is just a *prime implicant* as it can also be replaced with $\bar{A}\bar{B}$.
 
 Also, the derived expression is *not yet* in its *minimised* form, and can still be factored once.

@@ -20,7 +20,7 @@ Thus, the gate input cost is $9$.
 
 ## GIC of other gates
 ### NAND and NOR
-The *equivalent* GIC of [[Universal Gates|NAND and NOR]] gates is $3$.
+The *equivalent* GIC of [[Universal Gate|NAND and NOR]] gates is $3$.
 
 ![[NANDNOREquivalentGIC.svg]]
 
