@@ -1,5 +1,5 @@
 # 2's Complement Arithmetic
-2's complement arithmetic is straightforward and works on signed and unsigned operands. 2's complement arithmetic can be implemented using simple [[Adder|adders]].
+2's complement arithmetic is the most prevalent arithmetic representation and works with both *signed and unsigned* operands. 2's complement arithmetic can be implemented using simple [[Adder|adders]].
 
 ## Addition
 Addition using 2's complement numbers requires *no special process*, even if the operands are of different signs. 
@@ -25,6 +25,6 @@ Below is a 2's complement adder/substractor, consisting of 4 [[Adder#Full adder|
 
 ![[2sComplementAdderSubtractor.svg|900]]
 
-If $\text{Sub}=0$,  the vector signal $B$ enters the full adders and the carry-in is $0$, thus calculating $A+B$.
+If $\text{Sub}=0$, the vector signal $B$ enters the full adders and the carry-in is $0$, and $A+B$ is calculated.
 
-If $\text{Sub}=1$, the vector signal $B$ is *complemented* and the carry-in is $1$, allowing for the 2's complement to be obtained and thus calculating $A+(-B)=A-B$.
+If $\text{Sub}=1$, the vector signal $B$ is *complemented* and the carry-in is $1$, allowing for the 2's complement to be obtained and thus $A+(-B)=A-B$ is calculated.

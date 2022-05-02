@@ -1,8 +1,10 @@
 # Flip-flop
-**Synchronous [[Level and Edge Triggering#Edge-triggered|edge sensitive]] storage element.**
+**A synchronous [[Level and Edge Triggering#Edge-triggered|edge sensitive]] storage element.**
+
+Flip-flops store an inputted state indefinitely until it is triggered to change but a clock signal.
 
 ## D flip-flop
-A *data* or *delay* flip-flop is the most fundamental flip-flop. It is also the flip-flop that uses the *least* amount of gates. Other flip-flops can be constructed using D flip-flops and combinational logic.
+A *data* or *delay* flip-flop is the most fundamental flip-flop and is the flip-flop that uses the *least* amount of gates. Other flip-flops can be constructed using D flip-flops and additional combinational logic.
 
 ![[DFlipFlop.svg|250]]
 

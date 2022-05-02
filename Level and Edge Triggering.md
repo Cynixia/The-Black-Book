@@ -1,9 +1,11 @@
 # Level and Edge Triggering
 *Level* and *edge* triggering refers to the type of stimulus that causes the outputs of a circuit or component to change.
 
-Below is a timing diagram comparing the responses of a *level-triggered* D latch and an *positive-edge-triggered* D flip-flop.
+Below is a *level-triggered* D latch and an *positive-edge-triggered* D flip-flop and a timing diagram compaing their responses.
 
-![[LevelVSEdgeTriggered.svg]]
+![[LevelVSEdgeTriggeredCircuit.svg|450]]
+
+![[LevelVSEdgeTriggeredTiming.svg]]
 
 ## Level-triggered
 **A circuit or component whose outputs change when the inputs are at a certain logic value.**

@@ -29,7 +29,7 @@ Sign-magnitude representation has multiple consequences to consider during imple
 - Arithmetic results need to be *corrected*.
 
 ## Signed 1's complement
-In [[Radix Complement|signed 1's complement]] representation, a negative number is represented as the *bitwise complement* of the positive number. 
+In *signed* [[Radix Complement|1's complement]] representation, a negative number is represented as the *bitwise complement* of the positive number. 
 $$\begin{align*} 00011001_{2}&=25_{10}\\
 11100110_{2}&=-25_{10} \end{align*}$$
 | Binary value | Signed 1's complement <br /> interpretation |
@@ -53,10 +53,10 @@ Signed 1's complement has the following consequences:
 - Addition requires doing an *end-around carry*.
 
 ## Signed 2's complement
-In [[Radix Complement|signed 2's complement]] representation, a negative number is represented as the bitwise complement of the positive number *plus* $1$.
+In *signed* [[Radix Complement|2's complement]] representation, a negative number is represented as the bitwise complement of the positive number *plus* $1$.
 $$\begin{align*} 00011001_{2}&=25_{10}\\
 11100111_{2}&=-25_{10} \end{align*}$$
-| Binary value | Signed 1's complement <br /> interpretation |
+| Binary value | Signed 2's complement <br /> interpretation |
 |:------------:|:-------------------------------------------:|
 |  $00000000$  |                     $0$                     |
 |  $00000001$  |                     $1$                     |
@@ -72,7 +72,7 @@ $$\begin{align*} 00011001_{2}&=25_{10}\\
 
 Signed 2's complement is the preferred representation as it does not have the consequences of *sign-magnitude* and *1's complement* representations.
 
-Additionally, [[2's complement arithmetic]] can be implemented using the same circuits as used in [[Adder|unsigned binary addition]] and [[unsigned binary subtraction]].
+Additionally, [[2's complement arithmetic]] can be implemented using the same circuits used in [[Adder|unsigned binary addition]].
 
 ### Negative signed 2's complement binary to decimal
 To convert a negative signed 2's complement binary number to decimal, either:
@@ -84,7 +84,7 @@ For example, for the $8$-bit number $1110\;1101$:
 - $1110\;1101_{2}=2^{0}+2^{2}+2^{3}+2^{5}+2^{6}-2^{7}=-19_{10}$
 
 ## Sign extension
-To represent a signed $n$-bit number with an additional $m$ bits, the extra bits are set to the value of the most significant bit.
+To represent a signed $n$-bit number with an additional bits, the extra bits are set to the value of the most significant bit.
 
 For example, to convert $-7$ from $4$-bits to $8$-bits:
 $$1001\longrightarrow 1111\;1001$$

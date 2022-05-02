@@ -1,7 +1,7 @@
-# Flip-flop input equation
+# Flip-flop Input Equation
 **A Boolean equation describing the inputs to a flip-flop.**
 
-[[Flip-flop]] input equations are typically derived from [[State Table|state tables]] and used to form the output combinational circuit.
+[[Flip-flop]] input equations are derived from [[State Table|state tables]] and [[Excitation Table|excitation tables]] and used to form the output combinational circuit.
 
 ## Example
 For a T flip-flop circuit, the extended state table derived from an excitation table is:

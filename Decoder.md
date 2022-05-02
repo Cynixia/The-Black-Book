@@ -1,7 +1,7 @@
 # Decoder
 **A circuit that converts $n$ coded inputs to a maximum of $2^n$ unique outputs.**
 
-It is the [[Duality|dual]] of an [[encoder]] circuit.
+It is the [[Duality#Boolean algebra|dual]] of an [[encoder]] circuit.
 
 ## $1$-of-$n$ decoder
 $1$-of-$n$ decoders asserts *exactly one* of its outputs or none of them. The most common decoders of this type are $n$-to-$2^{n}$-line decoders.

@@ -1,0 +1,2 @@
+# Lenz's Law
+#unfinished

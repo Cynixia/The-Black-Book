@@ -22,7 +22,7 @@ Synchronous circuits are generally *more stable* and are *easier to design*.
 Asynchronous circuits commonly use *time delay devices* as storage elements. Time delay may be introduced by propagation delay instead, and therefore asynchronous circuits can be considered as just combinational circuits with *feedback*.
 
 ## Storage elements
-The two types of storage elements used in sequential circuits are:
+The two types of basic storage elements used in sequential circuits are:
 - [[Latch|Latches]]
 - [[Flip-flop|Flip-flops]]
 
@@ -31,7 +31,7 @@ Storage elements are characterised by their number of inputs and how the inputs 
 ## Analysis of sequential circuits
 Sequential circuits are described algebraically using [[State Equation|state equations]], in tabular form using [[State Table|state tables]], and graphically using [[State Diagram#Finite state machines|state diagrams]]. 
 
-A sequential circuit using [[Flip-flop|flip-flops]] can further be described by 
+A sequential circuit using [[Flip-flop|flip-flops]] can further be described by a set of [[Flip-flop Input Equation|flip-flop input equations]].
 
 ## Models of sequential circuits
 Sequential circuits are mathematically modelled as [[Finite State Machine|finite state machines]].

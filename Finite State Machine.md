@@ -9,7 +9,8 @@ Finite state transducers are further classfied in two types.
 
 ![[MealyModel.svg|800]]
 
-In a Mealy circuit, outputs can change during a clock cycle and momentary false values can occur. To prevent this inputs are *synchronised* to the clock and change at the *inactive* edge of the clock.
+In a Mealy circuit, outputs can change during a clock cycle and momentary false values can occur.
+To prevent this inputs are *synchronised* to the clock and change at the *inactive* edge of the clock.
 
 The output value is only accurate when sampled *immediately before* the *active edge* of the clock.
 

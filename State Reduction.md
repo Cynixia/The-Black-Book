@@ -34,4 +34,6 @@ Note that cells corresponding to any pairs for which the outputs are different c
 
 For the final step, the remaining undetermined cells can be filled by referring to the filled cells.
 
+$a,f$ are not equivalent as $c,d$ are not equivalent and $b,f$ are not equivalent as $c,e$ are not equivalent.
+
 Thus, the sets of equivalent states are $a, b$ and $d,e,g$.  

@@ -7,11 +7,11 @@ Boolean functions are typically expressed in [[Standard Forms of a Boolean Funct
 
 
 ## Literals
-**A unique occurance of a variable** in a function. Complements are counted separately to non-complements.
+**A unique occurrence of a variable** in a function. Complements are counted separately to non-complements.
 
 The following equation contains $5$ literals.
 $$B(A+D)+AC$$
 ## Terms
-**An occurance of a literal or either a conjunction or disjunction of literals** in a function.
+**An occurrence of a literal or either a conjunction or disjunction of literals** in a function.
 
 The previous equation contains $8$ terms; $A$ (counted twice), $B$, $C$, $D$, $A+D$, $AC$, $B(A+D)$.

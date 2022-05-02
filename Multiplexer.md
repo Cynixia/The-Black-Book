@@ -31,7 +31,7 @@ Below is an $8$-to-$1$-line multiplexer implemented using cascading multiplexers
 
 ![[8to1CascadingMultiplexers.svg]]
 
-## Multiplexer implemtations
+## Multiplexer implementations
 Multiplexers can be used to implement [[Boolean functions]]. The functions need to be *decomposed* with [[Boole's expansion theorem]] first, such that a variable or a set of variables can act as the select lines.
 
 ### Example - Boolean equation, 1 select line
@@ -54,7 +54,9 @@ F&=\bar{A}\bar{C}+AB+AC &\\
 ### Example - minterm canonical form
 $F(A,B,C,D)=\sum m(1,3,4,11,12,13,14,15)$
 
-If $A$ and $B$ are the select lines, a [[Karnaugh Map|K-map]] can be used to find the combinations of the other variables that correspond with each input.
+If $A$ and $B$ are the select lines, a [[Karnaugh Map|K-map]] can be used to find the combinations of the other variables that correspond with each input, i.e. $AB = 00$, $AB=01$ etc.
+
+For example, if $AB=01$, then the minterm $\bar{C}\bar{D}$ is HIGH according to the function. Thus, $\bar{C}\bar{D}$ must be the value forwarded to the output when $AB=01$.
 
 ![[MultiplexerImplementationMintermCanonicalKMap.svg|400]]
 

@@ -38,9 +38,9 @@ For example, the function $f(x,y,z,w)=xy+yz+w$ has implicants $xy$, $xyz$, $xyzw
 Prime implicants correspond to rectangles containing *as many* squares as possible.
 
 #### Essential prime implicant
-**An implicant that contains the only occurance of a minterm of the function.**
+**An implicant that contains the only occurrence of a minterm of the function.**
 
-Essential prime implicants correspond to rectanges containing at least one cell with a $1$ *not included* in any other prime implicant.
+Essential prime implicants correspond to rectangles containing at least one cell with a $1$ *not included* in any other prime implicant.
 
 ### Example
 Simplifying $F(A,B,C,D)=\sum m(1,3,7,11,15)$ with [[Don't Care Condition|don't care conditions]] $d(A,B,C,D)=\sum m(0,2,5)$.

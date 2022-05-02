@@ -1,7 +1,7 @@
 # Encoder
 **A circuit that converts $2^n$ inputs to $n$ coded outputs.**
 
-It is the [[Duality|dual]] of a [[decoder]] circuit.
+It is the [[Duality#Boolean algebra|dual]] of a [[decoder]] circuit.
 
 ## $1$-of-$n$ encoder
 $1$-of-$n$ encoders can only accept *one* HIGH input at any time. The most common encoders of this type are $2^n$-to-$n$ encoders.

@@ -1,5 +1,7 @@
 # Latch
-**Asynchronous [[Level and Edge Triggering#Level-triggered|level sensitive]] storage element.**
+**An asynchronous [[Level and Edge Triggering#Level-triggered|level sensitive]] storage element.**
+
+Latches will "latch" onto an inputted state until another input changes its state.
 
 ## SR latch
 A *set-reset* latch is the most fundamental latch and has a *set* and a *reset* input. It can be constructed from a pair of NOR or NAND gates.
