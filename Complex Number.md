@@ -26,3 +26,4 @@ $$z^{n}=r^{n}\angle n\phi$$
 ### Fractional exponentiation or root extraction
 Fractional exponentiation is *multi-valued* but its *principal value* is
 $$\sqrt[n]{z}=\sqrt[n]{r}\angle{\frac{\phi}{n}}$$
+For other values, the root can be found by *extending* [[de Moivre's Formula|de Moivre's formula]].

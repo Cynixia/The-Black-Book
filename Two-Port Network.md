@@ -29,7 +29,7 @@ It is possible that impedance parameters *do not exist* for a two-port network.
 
 ## Admittance parameters
 $$\left[\begin{matrix} \mathbf{I}_{1}\\ \mathbf{I}_{2} \end{matrix}\right]=\left[\begin{matrix} \mathbf{Y}_{11} & \mathbf{Y}_{12} \\ \mathbf{Y}_{21} & \mathbf{Y}_{22} \end{matrix}\right]\left[\begin{matrix} \mathbf{I}_{1}\\ \mathbf{I}_{2} \end{matrix}\right]$$
-The [[admittance]] parameters, denoted as Y-parameters*, have dimensions of *siemens*. Their values are evaluated by *short circuiting* the ports.
+The [[admittance]] parameters, denoted as *Y-parameters*, have dimensions of *siemens*. Their values are evaluated by *short circuiting* the ports.
 $$\begin{align*}
 \mathbf{Y}_{11}&=\left.\frac{\mathbf{I}_{1}}{\mathbf{V}_{1}}\right|_{\mathbf{V}_{2}=0}\qquad \mathbf{Y}_{12}=\left.\frac{\mathbf{I}_{1}}{\mathbf{V}_{2}}\right|_{\mathbf{V}_{1}=0} \\
 \mathbf{Y}_{21}&=\left.\frac{\mathbf{I}_{2}}{\mathbf{V}_{1}}\right|_{\mathbf{V}_{2}=0}\qquad \mathbf{Y}_{22}=\left.\frac{\mathbf{I}_{2}}{\mathbf{V}_{2}}\right|_{\mathbf{V}_{1}=0}
@@ -96,8 +96,8 @@ $$\begin{align*}
 ## Relationships between parameters
 The six sets of parameters of the same two-port network are all *interrelated*.
 
-The *impedance* and *admittance* matrices can be interchanged by matrix inversion.
-Likewise, the *hybrid* and *inverse hybrid* and the *transmission* and *inverse transmission* matrices can be interchanged by *matrix inversion*.
+The *impedance* and *admittance* matrices can be interchanged by *matrix inversion*.
+Likewise, the *hybrid* and *inverse hybrid* and the *transmission* and *inverse transmission* matrices can also be interchanged by matrix inversion.
 $$\begin{align*} &[\mathbf{Z}]=[\mathbf{Y}]^{-1}\qquad &[\mathbf{Y}]=[\mathbf{Z}]^{-1} \\
 &[\mathbf{h}]=[\mathbf{g}]^{-1}\qquad &[\mathbf{g}]=[\mathbf{h}]^{-1} \\
 &[\mathbf{T}]=[\mathbf{T}']^{-1}\qquad &[\mathbf{T}']=[\mathbf{T}]^{-1} \\
@@ -116,14 +116,14 @@ The remaining conversions can be achieved using *determinants*.
 
 ## Types of two-port networks
 A two-port network is *symmetrical* if its *input impedance* is equal to its *output impedance*.
-$$\begin{align*}
-\mathbf{Z}_{11}&=\mathbf{Z}_{22} \\
-\end{align*}$$
+$$
+\mathbf{Z}_{11}=\mathbf{Z}_{22}
+$$
 A network is *reciprocal* if the voltage at port $2$ due to the current applied at port $1$ is equal to the voltage at port $1$ due to the current applied at port $2$. A network consisting entirely of linear passive components will typically be reciprocal.
-$$\begin{align*}
-\mathbf{Z}_{12}&=\mathbf{Z}_{21} \\
-\mathbf{y}_{12}&=\mathbf{y}_{21} \\
-\mathbf{h}_{12}&=-\mathbf{h}_{21} \\
-\mathbf{AD}-\mathbf{BC}&=1 \\
-\mathbf{ad}-\mathbf{bc}&=1
-\end{align*}$$
+$$\begin{gather*}
+\mathbf{Z}_{12}=\mathbf{Z}_{21} \\
+\mathbf{y}_{12}=\mathbf{y}_{21} \\
+\mathbf{h}_{12}=-\mathbf{h}_{21} \\
+\mathbf{AD}-\mathbf{BC}=1 \\
+\mathbf{ad}-\mathbf{bc}=1
+\end{gather*}$$

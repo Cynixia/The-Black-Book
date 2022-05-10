@@ -1,7 +1,7 @@
 # Adder
 **An [[arithmetic circuit]] that performs addition of numbers.**
 
-In general, an adder circuit will operate on binary numbers.
+The most common adders operate on binary numbers.
 
 ## Half adder
 A *half adder* adds two *single* binary digits and has two outputs, *sum* and *carry*. The carry output is also known as the *carry-out* of the adder.

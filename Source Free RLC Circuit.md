@@ -1,11 +1,11 @@
 # Source Free RLC Circuit
 **An RLC circuit without a source.**
 
-The analysis of a *source free* RLC circuit is the same as finding the [[Second Order Circuit#Natural or transient response|natural or transient]] response of a general [[second order circuit]].
+The analysis of a *source free* RLC circuit is the same as finding the [[Second Order Circuit#Natural or transient response|natural or transient]] response of a general [[second order circuit]]. The circuit is driven by the initial energy stored in the [[capacitor]] and [[inductor]].
 
 ## Series RLC circuit
 In a *series* RLC circuit, the second order differential equation is in terms of its *current*.
-The [[damping]] *factor* and *natural frequency* are given by
+The *damping factor* and *natural frequency* are given by
 $$\alpha=\frac{R}{2L}\qquad \omega_{0}=\frac{1}{\sqrt{LC}}$$
 ![[RLCSourceFreeSeriesCircuit.svg|550]]
 

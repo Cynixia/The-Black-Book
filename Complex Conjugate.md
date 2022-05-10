@@ -1,4 +1,4 @@
-## Complex Conjugate
+# Complex Conjugate
 The *complex conjugate* of a complex number is the number with real and imaginary parts equal in magnitude but *opposite* in *sign*.
 $$\bar{z}=z^*=x-iy=r\angle{-\phi}$$
 Conjugation is *distributive* over addition, subtraction, multiplication, and division.

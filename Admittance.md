@@ -1,7 +1,7 @@
 # Admittance
 **The reciprocal of [[impedance]].**
 
-*Admittance*, $\mathbf{Y}$, is a measure of the ease in which current flows. It is measured in *siemens* ($\text{S}$). Like impedance, it is a [[complex number]].
+*Admittance*, $\mathbf{Y}$, is the measure of the ease in which current flows. It is measured in *siemens* ($\text{S}$). Like impedance, it is a [[complex number]].
 $$\mathbf{Y}=\frac{1}{\mathbf{Z}}=\frac{\mathbf{I}}{\mathbf{V}}$$
 Admittance is composed of *conductance*, $G$, and *susceptance*, $B$, both also measured in siemens, and is expressed as
 $$\mathbf{Y}=G+jB$$

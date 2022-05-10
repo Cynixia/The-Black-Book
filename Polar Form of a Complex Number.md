@@ -1,5 +1,5 @@
 # Polar Form of a Complex Number
-[[Complex Number|Complex numbers]] can also be expressed in *polar form*, either using [[Euler's formula]] or in angle notation as a [[phasor]].
+[[Complex Number|Complex numbers]] can also be expressed in *polar form*, either using [[List of Trigonometric Identities#Euler's formula|Euler's formula]] or in angle notation as a [[phasor]].
 $$z=re^{i\phi}=r\angle \phi$$
 - $r=|z|=\sqrt{x^2+y^2}$ - *modulus* or *magnitude* - the distance from the origin to the point $z$.
 - $\phi=\tan^{-1}\frac{y}{x}$ - *argument* or [[phase]] - angle between the vector $z$ and the positive real axis.

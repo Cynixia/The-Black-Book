@@ -11,4 +11,4 @@ In the following diagram, $v_{2}$ *lags* $v_{1}$.
 
 ![[SinusoidPhase.svg]]
 
-In general, phase angles are kept in the range $-180^{\circ}\le\phi\le 180^{\circ}$.
+In general, phase angles are kept in the range $-180^{\circ}\le\phi\le 180^{\circ}$ by [[List of Trigonometric Identities#Angle shifts|shifting angles]].

@@ -17,5 +17,5 @@ There are various other conventions, such as $u(0)=0$ or $u(0)=\frac{1}{2}$.
 The *unit impulse function*, $\delta(x)$, also known as the *Dirac delta function*, is zero for all values except at $t=0$, where it is undefined. Its integral over the *entire real line* is equal to $1$.
 $$\int_{-\infty}^{\infty}\delta(x)\;dx=1$$
 The function is noted for its *sampling* or *sifting* property.
-$$\int_{a}^{b}f(x)\delta(x-x_{0})\;dt=f(x_0)$$
+$$\int_{a}^{b}f(x)\delta(x-x_{0})\;dx=f(x_0)$$
 ![[UnitImpulseFunction.svg]]

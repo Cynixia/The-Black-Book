@@ -19,7 +19,7 @@ $$\begin{align*} \mathbf{S}&=\frac{1}{2}\mathbf{V}\mathbf{I}^{*} \\
 \end{align*}$$
 In summary, the components of complex power are:
 $$\begin{align*} \text{Complex power} - \mathbf{S}&=\mathbf{V}_{\text{RMS}}\mathbf{I}_{\text{RMS}}^{*}=P+jQ\\ &=|\mathbf{V}_{\text{RMS}}||\mathbf{I}_{\text{RMS}}|\angle(\theta_{v}-\theta_{i}) \\
-\text{Apparent power} - S&=S=|\mathbf{S}|=|\mathbf{V}_{\text{RMS}}||\mathbf{I}_{\text{RMS}}|=\sqrt{P^{2}+Q^{2}} \\
+\text{Apparent power} - S&=|\mathbf{S}|=|\mathbf{V}_{\text{RMS}}||\mathbf{I}_{\text{RMS}}|=\sqrt{P^{2}+Q^{2}} \\
 \text{Real power} - P&=\Re(\mathbf{S})=S\cos(\theta_{v}-\theta_{i}) \\
 \text{Reactive power} - Q&=\Im(\mathbf{S})=S\sin(\theta_{v}-\theta_{i}) \\
 \text{Power factor} - pf&=\frac{P}{S}=\cos(\theta_{v}-\theta_{i})

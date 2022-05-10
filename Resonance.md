@@ -10,7 +10,7 @@ At resonance,
 - The [[transfer function]] $\mathbf{H}(\omega)=\mathbf{Z}(\omega)$ is at a *minimum*.
 - The inductor and capacitor voltage may *exceed* the source voltage.
 
-The value of $\omega$ that causes resonance is the *resonant* or *natural* frequency, $\omega_{0}$. For  *both* series and parallel RLC circuits, it is given by
+The value of $\omega$ that causes resonance is the *resonant* or *natural* frequency, $\omega_{0}$. For *both* series and parallel RLC circuits, it is given by
 $$\omega_{0}=\frac{1}{\sqrt{LC}}$$
 The *half-power frequencies* are the frequencies where the dissipated power is *half* the maximum or half the value *at resonance*. At half-power frequencies,
 $$|\mathbf{H}(\omega)|=\frac{1}{\sqrt{2}}$$

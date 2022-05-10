@@ -9,3 +9,5 @@ $$\begin{align*}
 \text{Transfer admittance, }\mathbf{H}(\omega)&=\frac{\mathbf{I}_\text{o}(\omega)}{\mathbf{V}_\text{i}(\omega)} \\
 \end{align*}$$
 The transfer function is a *complex-valued* function and thus has an associated *magnitude* $H(\omega)$ and [[phase]] $\phi$.
+
+The *denominator* of the transfer function of a circuit is also the [[Characteristic Equation#Linear differential equations|characteristic equation]] of the circuit.
