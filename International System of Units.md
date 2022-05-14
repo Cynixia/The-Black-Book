@@ -39,4 +39,27 @@ Also known as SI units.
 |     katal      |    $\text{kat}$    |            catalytic activity             |                     $\text{mol s}^{-1}$                     | $-$                                                         |
 
 ## Prefixes
-#unfinished
+|  Name  |   Symbol    | Power of 10 |
+|:------:|:-----------:|:-----------:|
+| yotta- | $\text{Y}$  |  $10^{24}$  |
+| zetta- | $\text{Z}$  |  $10^{21}$  |
+|  exa-  | $\text{E}$  |  $10^{18}$  |
+| peta-  | $\text{P}$  |  $10^{15}$  |
+| tera-  | $\text{T}$  |  $10^{12}$  |
+| giga-  | $\text{G}$  |  $10^{9}$   |
+| mega-  | $\text{M}$  |  $10^{6}$   |
+| kilo-  | $\text{k}$  |  $10^{3}$   |
+| hecto- | $\text{h}$  |  $10^{2}$   |
+| deca-  | $\text{da}$ |  $10^{1}$   |
+|        |             |  $10^{0}$   |
+| deci-  | $\text{d}$  |  $10^{-1}$  |
+| centi- | $\text{c}$  |  $10^{-2}$  |
+| milli- |   $\upmu$   |  $10^{-3}$  |
+| micro- | $\text{m}$  |  $10^{-6}$  |
+| nano-  | $\text{n}$  |  $10^{-9}$  |
+| pico-  | $\text{p}$  | $10^{-12}$  |
+| femto- | $\text{f}$  | $10^{-15}$  |
+| atto-  | $\text{a}$  | $10^{-18}$  |
+| zepto- | $\text{z}$  | $10^{-21}$  |
+| yocto- | $\text{y}$  | $10^{-24}$  |
+
