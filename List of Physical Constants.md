@@ -79,7 +79,7 @@ The constant of proportionality used in *Wien's displacement law* when used with
 $$b-2.897\;771\;955\ldots\times10^{-3}\text{ m K}$$
 
 ## Electronvolt
-An electronvolt is the amount of *kinetic energy* gained by a *single electron* accelerating *from rest* through an electric potential difference of *one volt*. Its magnitude in joules is equal to *elementary charge*.
+An electronvolt is the amount of *kinetic energy* gained by a *single electron* accelerating *from rest* through an electric potential difference of *one volt*. Its magnitude in joules is equal to the value of *elementary charge*.
 $$\text{eV}-1.602\;176\;634\times10^{-19}\text{ J}$$
 
 ## Atomic mass energy equivalent

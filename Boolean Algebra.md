@@ -1,5 +1,5 @@
-# Boolean Alegbra
-**The branch of algebra dealing with binary variables and describing [[Logical Operations]].**
+# Boolean Algebra
+**The branch of algebra dealing with binary variables and describing [[logical operations]].**
 
 ## Laws
 The following pairs of laws are all related by the [[Duality#Boolean Algebra|duality]] principle.
