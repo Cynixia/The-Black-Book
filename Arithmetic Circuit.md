@@ -17,3 +17,4 @@ Z&=\overline{S_{n-1}}\;\overline{S_{n-2}}\cdots \overline{S_{0}} \\
 C&=C_{n} \\
 V&=C_{n}\oplus C_{n-1}
 \end{align*}$$
+where $S$ denotes *sum* bits and $C$ denotes *carry* bits.
