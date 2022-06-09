@@ -6,8 +6,8 @@ Excitation tables can be derived from [[Characteristic Equation#Digital Electron
 For example, the excitation table of a T flip-flop is:
 
 | $Q$ | $Q_{\text{next}}$ | $T$ |
-| --- | ---------- | --- |
-| $0$ | $0$        | $0$ |
-| $0$ | $1$        | $1$ |
-| $1$ | $0$        | $1$ |
-| $1$ | $1$        | $0$    |
+|:---:|:-----------------:|:---:|
+| $0$ |        $0$        | $0$ |
+| $0$ |        $1$        | $1$ |
+| $1$ |        $0$        | $1$ |
+| $1$ |        $1$        | $0$ |

@@ -1,4 +1,4 @@
 # Complex Conjugate Root Theorem
-**If $P$ is a single-variable polynomial with real coefficients and a [[complex number]] $z$ is a root, then its [[complex conjugate]] $\bar{z}$ is also a root.**
+**A single-variable polynomial with real coefficients will have roots in [[Complex Conjugate|conjugate]] pairs.**
 
 This implies that if the *degree* of the real polynomial is *odd*, then it must have *at least one* real root.
