@@ -34,16 +34,16 @@ Below is an $8$-to-$1$-line multiplexer implemented using cascading multiplexers
 ## Multiplexer implementations
 Multiplexers can be used to implement [[Boolean functions]]. The functions need to be *decomposed* with [[Boole's expansion theorem]] first, such that a variable or a set of variables can act as the select lines.
 
-### Example - Boolean equation, 1 select line
-$$\begin{flalign}
+> [!Boolean equation, 1 select line]
+>$$\begin{flalign}
 F&=\bar{A}\bar{C}+AB+AC &\\
 &=A(B+C)+\bar{A}(\bar{C})
 \end{flalign}$$
 ![[MultiplexerImplementationBooleanEquation1.svg|500]]
 
-### Example - Boolean equation, 2 select lines
+> [!Example - Boolean equation, 2 select lines]
 To use both $A$ and $B$ as select lines, $B$ needs to be included in every term through the multiplication by $B+\bar{B}=1$. Decomposition is applied twice.
-$$\begin{flalign}
+>$$\begin{flalign}
 F&=\bar{A}\bar{C}+AB+AC &\\
 &=AC(B+\bar{B})+AB(1)+\bar{A}\bar{C}(B+\bar{B}) &\\
 &=ABC+A\bar{B}C+AB(1)+\bar{A}B\bar{C}+\bar{A}\bar{B}\bar{C} &\\
@@ -51,13 +51,13 @@ F&=\bar{A}\bar{C}+AB+AC &\\
 \end{flalign}$$
 ![[MultiplexerImplementationBooleanEquation2.svg|550]]
 
-### Example - minterm canonical form
+> [!Minterm canonical form]
 $F(A,B,C,D)=\sum m(1,3,4,11,12,13,14,15)$
-
+>
 If $A$ and $B$ are the select lines, a [[Karnaugh Map|K-map]] can be used to find the combinations of the other variables that correspond with each input, i.e. $AB = 00$, $AB=01$ etc.
-
+>
 For example, if $AB=01$, then the minterm $\bar{C}\bar{D}$ is HIGH according to the function. Thus, $\bar{C}\bar{D}$ must be the value forwarded to the output when $AB=01$.
-
+>
 ![[MultiplexerImplementationMintermCanonicalKMap.svg|400]]
-
+>
 ![[MultiplexerImplementationMintermCanonical.svg|550]]

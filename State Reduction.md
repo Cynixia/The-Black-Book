@@ -16,7 +16,7 @@ The steps to filling in an implication table using a [[state table]] are:
 - Eliminate pairs of states that depend on an equivalence subsequently deemed impossible.
 - Repeat above steps, from the leftmost column to the right and top to bottom, until the implication table is filled.
 
-### Example
+> [!Example]
 | Present <br /> state | Next <br /> state |       | Output |       |
 | -------------------- | ----------------- | ----- | ------ | ----- |
 |                      | $X=0$             | $X=1$ | $X=0$  | $X=1$ |
@@ -27,13 +27,13 @@ The steps to filling in an implication table using a [[state table]] are:
 | $e$                  | $a$               | $d$   | $1$    | $0$   |
 | $f$                  | $c$               | $b$   | $0$    | $0$   |
 | $g$                  | $a$               | $e$   | $1$    | $0$      |
-
+>
 Note that cells corresponding to any pairs for which the outputs are different can immediately be eliminated. In addition, the pair $d,e$ have the same outputs and the same next states and so it can immediately be marked as equivalent.
-
+>
 ![[ImplicationTableExample.svg]]
-
+>
 For the final step, the remaining undetermined cells can be filled by referring to the filled cells.
-
-$a,f$ are not equivalent as $c,d$ are not equivalent and $b,f$ are not equivalent as $c,e$ are not equivalent.
-
+>
+$a,f$ are not equivalent as $c,d$ are not equivalent;  $b,f$ are not equivalent as $c,e$ are not equivalent.
+>
 Thus, the sets of equivalent states are $a, b$ and $d,e,g$.  

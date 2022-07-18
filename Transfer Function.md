@@ -17,3 +17,7 @@ The *denominator* of the transfer function of a circuit is also the [[Characteri
 For the purpose of constructing [[Bode Plot|Bode plots]], transfer functions are either *factorised* or converted into *standard form*.
 
 ## Standard transfer function
+**A form of a transfer function where all zeroes and poles are divided out.**
+
+Also known as a *general* transfer function, a standard transfer function is the most common form of a transfer function.
+$$\mathbf{H}(s)=\frac{A\left(1+\frac{s}{z_{1}}\right)^{a_{1}}\left(1+\frac{s}{z_{2}}\right)^{a_{2}}\cdots}{\left(1+\frac{s}{p_{1}}\right)^{a_{1}}\left(1+\frac{s}{p_{2}}\right)^{a_{2}}\cdots}$$

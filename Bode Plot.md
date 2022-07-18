@@ -77,53 +77,56 @@ The slopes of the phase plot are *centred* at the zeroes or the poles.
 - For a *zero*, the slope is an *increase* of $180N^{\circ}$ over *two decades*.
 - For a *pole*, the slope is a *decrease* of $180N^{\circ}$ over *two decades*.
 
-## Examples
-### Approximate plot from a transfer function with a gain and simple poles and zeroes
-$$\mathbf{H}(s)=\frac{10(s+100)}{s+1}$$
-#### Magnitude plot
+### Summary
+![[BodePlotSummary.svg|925]]
+
+### Examples
+> [!Approximate plot from a transfer function with a gain and simple poles and zeroes]+
+> $$\mathbf{H}(s)=\frac{10(s+100)}{s+1}$$
+> #### Magnitude plot
 For the above transfer function, the sum of the *individual contributions* of the factors to the magnitude are
-$$\begin{align*}
+> $$\begin{align*}
 H(s)\;\text{dB}&=20\log_{10}10+20\log_{10}|s+100|+20\log_{10}\frac{1}{|s+1|} \\
 &=20\log_{10}10+20\log_{10}|s+100|-20\log_{10}|s+1|
 \end{align*}$$
 These individual contributions can be plotted, with the plot before the break point *approximated* with the limit as $s\rightarrow 0$.
-
+> 
 ![[BodePlotFactorisedSimpleMagnitudeComponents.svg]]
-
+>
 The entire *approximate* Bode magnitude plot is the *graphical sum* of the individual contributions and is thus
-
+>
 ![[BodePlotFactorisedSimpleMagnitude.svg|600]]
-
+> 
 Graphically, the sum of the individual plots is $20\;\text{dB}+40\;\text{dB}+0\;\text{dB}=60\;\text{dB}$ until the first break point at $\omega=1$. Past this point, the factor $(s+1)^{-1}$ contributes a *decrease* of $20\;\text{dB/decade}$. However, past the second break point at $\omega=100$, the factor $s+100$ contributes an *increase* of $20\;\text{dB/decade}$ which *cancels out* the contribution of the previous factor.
-
+> 
 Note that the magnitude plot agrees with the limits of the magnitude of the transfer function for low and high frequencies.
-$$\lim_{\omega\rightarrow0}H(s)=1000\rightarrow60\;\text{dB}\qquad\lim_{\omega\rightarrow\infty}H(s)=10\rightarrow20\;\text{dB}$$
-#### Phase plot
+>$$\lim_{\omega\rightarrow0}H(s)=1000\rightarrow60\;\text{dB}\qquad\lim_{\omega\rightarrow\infty}H(s)=10\rightarrow20\;\text{dB}$$
+> #### Phase plot
 The sum of the individual contributions of the factors to the phase are
-$$\phi=0^{\circ}+\tan^{-1}\frac{\omega}{100}-\tan^{-1}\frac{\omega}{1}$$
+> $$\phi=0^{\circ}+\tan^{-1}\frac{\omega}{100}-\tan^{-1}\frac{\omega}{1}$$
 The entire approximate Bode phase plot is thus
-
+> 
 ![[BodePlotFactorisedSimplePhase.svg]]
-
+>
 Graphically, the phase is initially a constant $0^{\circ}$ until $10^{-1}$ where the factor $(s+1)^{-1}$ contributes a $90^{\circ}$ *decrease* over *exactly* two decades centred at $\omega=1$. The factor $s+100$ then *cancels out* the previous contribution by adding a $90^{\circ}$ *increase* over *exactly* two decades centred at $\omega=10^{2}$.
 
-### Approximate plot from a transfer function with a gain, zero at the origin, and simple pole
-$$\mathbf{H}(s)=\frac{10s}{s+1}$$
-#### Magnitude plot
+> [!Approximate plot from a transfer function with a gain, zero at the origin, and simple pole]+
+> $$\mathbf{H}(s)=\frac{10s}{s+1}$$
+> #### Magnitude plot
 Note that the zero is at the origin and thus there is only *one break point* that can be plotted.
-
+> 
 Due to the zero at the origin, the plot for $\omega<1$ must be an *upwards slope* of $20\;\text{dB/decade}$.
-
+>
 To determine the magnitude at which the break point occurs, the limit as $\omega\rightarrow\infty$ is used.
-$$\lim_{\omega\rightarrow\infty}H(s)=10\rightarrow20\;\text{dB}$$
+> $$\lim_{\omega\rightarrow\infty}H(s)=10\rightarrow20\;\text{dB}$$
 Thus, the approximate magnitude plot is
-
+> 
 ![[BodePlotFactorisedOriginMagnitude.svg|600]]
-
-#### Phase plot
+> 
+> #### Phase plot
 The gain and the zero at the origin contributes a *constant* phase of $0^{\circ}$ and $90^{\circ}$, respectively.
-
+> 
 Centred at $\omega=1$ is a slope of $-90^{\circ}$ over *exactly* two decades contributed by the $s+1$ factor.
-
+> 
 Thus, the approximate phase plot is
 ![[BodePlotFactorisedOriginPhase.svg|600]]

@@ -13,9 +13,9 @@ These forms are denoted by a $\sum$ or $\prod$ symbol and numbers corresponding 
 ### Minterm canonical form
 **The expression of a function as a logical sum (OR) of [[Minterms and Maxterms#^dd3c36|minterms]] for which the function value is 1.**
 
-#### Example
+> [!Example]
 $F(X,Y,Z)=\sum{m(0,2,5,7)}$ 
-
+>
 |$X$|$Y$|$Z$|$F$|
 |-|-|-|-|
 |$0$|$0$|$0$|$1$|
@@ -28,8 +28,9 @@ $F(X,Y,Z)=\sum{m(0,2,5,7)}$
 |$1$|$1$|$1$|$1$|
 
 ### Maxterm canonical form
-**The expression of a function as a logical product (AND) of [[Minterms and Maxterms#^01522f|maxterms]] for which the function value is 0.
+**The expression of a function as a logical product (AND) of [[Minterms and Maxterms#^01522f|maxterms]] for which the function value is 0.**
 
+> [!Example]
 The previous example can be expressed in the following maxterm canonical form.
 $F(X,Y,Z)=\prod M(1,3,4,6)$
 
@@ -39,15 +40,15 @@ These forms are similar to minterm/maxterm canonical form but *do not* need all 
 ### Sum of products form
 **The expression of a function as a logical product (OR) of AND terms for which the function value is 1.**
 
-#### Example
+> [!Example]
 $F=\bar{Y}+\bar{X}Y\bar{Z}+XY$
-
+>
 ![[SumOfProductsCircuit.svg|500]]
 
 ### Product of sums form
 **The expression of a function as a logical sum (AND) of OR terms for which the function value is 0.**
 
-#### Example
+> [!Example]
 $F=X(\bar{Y}+Z)(X+Y+\bar{Z})$
-
+>
 ![[ProductOfSumsCircuit.svg|500]]

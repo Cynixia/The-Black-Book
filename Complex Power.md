@@ -37,4 +37,4 @@ Its unit is the *volt-ampere*, $\text{VA}$.
 ## Power triangle
 It is common to represent complex power as a vector sum in the form of a *power triangle*.
 
-![[PowerTriangle.svg]]
+![[PowerTriangle.svg|500]]

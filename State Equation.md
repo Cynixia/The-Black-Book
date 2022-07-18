@@ -3,13 +3,12 @@
 
 A state equation is also known as a *transition equation* and relates the outputs of the flip-flop to the inputs of the sequential circuit.
 
-## Example
-In the following circuit, the next state is the same as the flip-flop input for D flip-flops.
-
-![[DFlipFlopSequentialExample.svg]]
-
+> [!Example]
+> In the following circuit, the next state is the same as the flip-flop input for D flip-flops.
+>
+> ![[DFlipFlopSequentialExample.svg]]
 The state equations are:
-$$\begin{align*}
+> $$\begin{align*}
 A(t+1)&=AX+BX \\
 &=X(A+B) \\
 B(t+1)&=\bar{A}X \\

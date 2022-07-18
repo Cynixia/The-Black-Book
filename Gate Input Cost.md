@@ -10,12 +10,12 @@ In an SOP/POS equation, the GIC is the sum of
 - The number of *distinct* complemented literals
 - The number of *non-literal* terms
 
-### Example
+> [!Example]
 $F=AB+\bar{C}(D+E)$
-
+>
 There are clearly $5$ literals, one of the literals are *complemented*, and the three *non-literal* terms are $AB$, $D+E$, and $\bar{C}(D+E)$.
 Thus, the gate input cost is $9$.
-
+>
 ![[GateInputCostCircuit.svg|500]]
 
 ## GIC of other gates
