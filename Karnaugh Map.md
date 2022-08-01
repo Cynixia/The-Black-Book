@@ -26,11 +26,11 @@ When grouping, groups are made *as large as possible* and secondary to this, *ov
 
 ### Implicants
 **A product term that implies a function.**
-Alternatively, an *implicant* is a product term where the function has the value $1$ for *all [[Minterms and Maxterms#^dd3c36|minterms]]* within it.
+Alternatively, an *implicant* is a product term for which the function has the value $1$ for *all [[Minterms and Maxterms#^dd3c36|minterms]]* containing the product term.
 
 On a K-map these correspond to any rectangles composed of cells containing $1$s.
 
-For example, the function $f(x,y,z,w)=xy+yz+w$ has implicants $xy$, $xyz$, $xyzw$, and $w$.
+For example, the function $f(x,y,z,w)=xy+yz+w$ has the obvious implicants $xy$, $yz$, and $w$ and any product terms containing these implicants will also imply the function.
 
 #### Prime implicants
 **An implicant which is no longer an implicant if any [[Boolean Functions#Literals|literal]] is removed.**

@@ -1,9 +1,9 @@
 # Minterms and Maxterms
-**A minterm is a product term in which each variable appears once (in complemented or uncomplemented form).**
+**A minterm is a product term with a value of 1 in which each variable appears once (in complemented or uncomplemented form).**
 A sum of minterms:
 $$\sum{m}=XY+\bar{X}Y$$ ^dd3c36
 
-**A maxterm is a sum term in which each variable appears once (in complemented or uncomplemented form).**
+**A maxterm is a sum term with a value of 0 in which each variable appears once (in complemented or uncomplemented form).**
 A product of maxterms:
 $$\prod{M}=(\bar{X}+Y)(X+Y)$$ ^01522f
 
@@ -21,7 +21,7 @@ A variable in a minterm is *complemented* for $0$ and *not complemented* for $1$
 |$1$|$0$|$X\bar{Y}$|$m_2$|
 |$1$|$1$|$XY$|$m_3$|
 
-Note that if *any* one minterm is true, all other minterms are false.
+Note that if *any one* minterm is true, *all other* minterms are false.
 
 ## Maxterms
 A variable in a maxterm is *complemented* for $1$ and *not complemented* for $0$.
@@ -33,4 +33,4 @@ A variable in a maxterm is *complemented* for $1$ and *not complemented* for $0$
 |$1$|$0$|$\bar{X}+Y$|$M_2$|
 |$1$|$1$|$\bar{X}+\bar{Y}$|$M_3$|
 
-Note that if *any* one maxterm is false, all other maxterms are true.
+Note that if *any one* maxterm is false, *all other* maxterms are true.

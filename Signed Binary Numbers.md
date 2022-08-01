@@ -84,7 +84,7 @@ For example, for the $8$-bit number $1110\;1101$:
 - $1110\;1101_{2}=2^{0}+2^{2}+2^{3}+2^{5}+2^{6}-2^{7}=-19_{10}$
 
 ## Sign extension
-To represent a signed $n$-bit number with an additional bits, the extra bits are set to the value of the most significant bit.
+To represent a signed $n$-bit number with additional bits, the extra bits are set to the value of the most significant bit.
 
 For example, to convert $-7$ from $4$-bits to $8$-bits:
 $$1001\longrightarrow 1111\;1001$$

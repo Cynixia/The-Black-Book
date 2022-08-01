@@ -3,7 +3,7 @@
 
 The *Laplace transform* outputs a *complex-valued* function of the *complex variable* $s$. 
 $$s=\sigma+i\omega$$
-The relationship between the Laplace transform and the Fourier transform is detailed in [[Comparison of the Laplace and Fourier Transform]].
+The relationship between the Laplace transform and the Fourier transform is detailed in the [[comparison of the Laplace and Fourier Transform]].
 
 The *unilateral* or *one-sided* Laplace transform is
 $$F(s)=\mathcal{L}[f(t)]=\int_{0}^{\infty}f(t)e^{-st}\;dt$$

@@ -10,6 +10,7 @@ The average value of a waveform is found with
 $$X_{\text{avg}}=\frac{1}{T}\int_{0}^{T}x(t)\;dt$$
 ## Root mean square value
 **The square root of the arithmetic mean of the squares of a set of values.**
+
 For a continuous function,
 $$X_{\text{RMS}}=\sqrt{\frac{1}{T}\int_{0}^{T}[x(t)]^{2}\;dt}$$
 

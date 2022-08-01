@@ -5,6 +5,8 @@ Digits shown within parentheses indicate the standard uncertainty of the constan
 In the *special theory of relativity*, the speed of light in a vacuum is the *upper limit* for the speed at which matter, energy, or information can travel.
 >$$c-299\;792\;458\text{ m s}^{-1}$$
 
+^7456b7
+
 > [!Planck constant]
 The Planck constant is an important constant in *quantum mechanics* and due to *mass-energy equivalence* it also relates *mass* to *frequency*. 
 >$$h-6.626\;070\;15\times10^{-34}\text{ J s}$$
