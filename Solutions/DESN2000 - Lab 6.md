@@ -28,7 +28,7 @@ The address for any one pixel at $x,y$ will thus be the base address of the fram
 ## Setting up SPI on the LPC2478
 >[!Example] When communicating over SPI, why is it good practice to disable the CS_TP immediately after a transmission has been completed?
 
-By disabling any devices not in use over SPI any problems caused by unwanted data or clock signal transmission is avoided.
+By disabling any devices not in use over SPI any problems caused by unwanted data or clock signal transmission, such as slave-to-slave transmission, is avoided.
 
 >[!Example] Treating the reserved bits as zeroes, write down what value should be written to the *S0SPCR* register for the following SPI interface configuration in hexadecimal.
 >- Act as the master

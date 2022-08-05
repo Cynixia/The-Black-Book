@@ -3,7 +3,7 @@
 
 Complex power, denoted $\mathbf{S}$, is measured in *volt-amperes* ($\text{VA}$). It is a [[complex number]] and can be expressed in rectangular form as
 $$\mathbf{S}=P+jQ$$
-- $P$ - [[average or real power]], $\text{W}$
+- $P$ - [[Average or Real Power]], $\text{W}$
 - $Q$ - *reactive* power, $\text{VAR}$
 
 Alternatively, in [[Polar Form of a Complex Number|polar form]],

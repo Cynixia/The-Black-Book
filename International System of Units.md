@@ -54,8 +54,8 @@ Also known as SI units.
 |        |             |  $10^{0}$   |
 | deci-  | $\text{d}$  |  $10^{-1}$  |
 | centi- | $\text{c}$  |  $10^{-2}$  |
-| milli- |   $\upmu$   |  $10^{-3}$  |
-| micro- | $\text{m}$  |  $10^{-6}$  |
+| milli- |   $\text{m}$   |  $10^{-3}$  |
+| micro- | $\upmu$  |  $10^{-6}$  |
 | nano-  | $\text{n}$  |  $10^{-9}$  |
 | pico-  | $\text{p}$  | $10^{-12}$  |
 | femto- | $\text{f}$  | $10^{-15}$  |

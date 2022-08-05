@@ -17,9 +17,9 @@ Converting $56180_{10}$ to base $20$.
 Thus, $56180_{10}=7090_{20}$
 
 ## Fractional Part
-To convert the fractional part, it is successively multiplied by the base into an *integer product and fraction* until the fraction is *zero*. The integer products are then read in order.
+To convert the fractional part, it is successively multiplied by the base into an *integer product and fraction* until the fraction is *zero*. The integer products are then read *in order*.
 
-Note that in each successive multiplication, only the fractional part of the preceding step is multiplied.
+Note that in each successive multiplication, *only* the fractional part of the preceding step is multiplied.
 
 > [!Example]
 Converting $0.6875_{10}$ to binary.

@@ -1,5 +1,5 @@
 # Adder
-**An [[arithmetic circuit]] that performs addition of numbers.**
+**An [[arithmetic circuit]] that performs the addition of numbers.**
 
 The most common adders operate on binary numbers.
 
@@ -19,7 +19,7 @@ $$S=A\oplus B \qquad C=AB$$
 ![[HalfAdder.svg|500]]
 
 ## Full adder
-A *full adder* adds three input bits, two *operands* and one *carry-in* bit. The carry-in bit is the bit "carried in" from a previous operation stage, such as the bit "carried out" but a half adder.
+A *full adder* adds three input bits: two *operands* and one *carry-in* bit. The carry-in bit is the bit "carried in" from a previous operation stage, such as the bit "carried out" but a half adder.
 $$S=A\oplus B\oplus C_{\text{in}} \qquad C_{\text{out}}=AB+C_{\text{in}}(A\oplus B)$$
 
 | Inputs |     |                 |     Outputs      |     |

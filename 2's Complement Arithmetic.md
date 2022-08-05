@@ -4,9 +4,7 @@
 ## Addition
 Addition using 2's complement numbers requires *no special process*, even if the operands are of different signs. 
 
-The carry-out bit from the most significant bit position is *discarded*.
-
-If the sum is *negative*, then its magnitude can be found by taking its 2's complement.
+The carry-out bit from the most significant bit position is *discarded* and the result will be a [[Signed Binary Numbers#Signed 2's complement|signed 2's complement]] number.
 
 For example, when adding $-6$ and $-13$:
 $$11111010+11110011=\cancel{1}11101101$$
@@ -21,7 +19,7 @@ For example, when subtracting $6$ from $13$:
 $$11111010+00001101=00000111$$
 
 ## Implementation
-Below is a 2's complement adder/substractor, consisting of 4 [[Adder#Full adder|full adders]] and XOR gates.
+Below is a 2's complement adder/subtractor, consisting of 4 [[Adder#Full adder|full adders]] and XOR gates.
 
 ![[2sComplementAdderSubtractor.svg|900]]
 

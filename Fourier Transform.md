@@ -8,7 +8,7 @@ The Fourier transform of a function outputs a *complex-valued* function.
 The plot of the magnitude of this function against frequency is its *amplitude spectrum*; the magnitude at a frequency is the *amplitude* of a *constituent sinusoid* at that frequency.
 Likewise, the plot of its [[phase]] is its *phase spectrum*.
 
-The relationship between the Fourier transform and the Laplace transform is described in [[Comparison of the Laplace and Fourier Transform]].
+The relationship between the Fourier transform and the Laplace transform can be seen in the [[comparison of the Laplace and Fourier Transform]].
 
 ## Inverse Fourier transform
 A function in the time domain can be reconstructed from its transform in the frequency domain via the *inverse Fourier transform*.

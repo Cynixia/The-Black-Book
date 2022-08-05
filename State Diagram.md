@@ -1,4 +1,5 @@
 # State Diagram
+***
 **A diagram describing the behaviour of a system as a set of states and the transitions between them.**
 
 ## Finite state machines

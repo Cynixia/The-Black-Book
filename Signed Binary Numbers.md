@@ -77,11 +77,11 @@ Additionally, [[2's complement arithmetic]] can be implemented using the same ci
 ### Negative signed 2's complement binary to decimal
 To convert a negative signed 2's complement binary number to decimal, either:
 - Take the *2's complement* of the negative number to find the corresponding positive number, then adding a *minus sign*.
-- Convert the number as usual but *remove* the value of the most significant bit.
+- Convert the number as usual but *subtract* the value of the *most significant bit*. ^878f2a
 
 For example, for the $8$-bit number $1110\;1101$:
 - 2's complement is $0001\;0011_{2}=19_{10}$, thus $1110\;1101_{2}=-19_{10}$
-- $1110\;1101_{2}=2^{0}+2^{2}+2^{3}+2^{5}+2^{6}-2^{7}=-19_{10}$
+- $1110\;1101_{2}=-2^{7}+2^{6}+2^{5}+2^{3}+2^{2}+2^{0}=-19_{10}$
 
 ## Sign extension
 To represent a signed $n$-bit number with additional bits, the extra bits are set to the value of the most significant bit.

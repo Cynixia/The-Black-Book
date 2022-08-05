@@ -1,13 +1,25 @@
 # Capacitance
 **The ability of an electrical conductor to store charge and thus oppose a change in voltage across it. **
 
+=== start-multi-column: Capacitance
+```column-settings
+number of columns: 2
+largest column: left
+border: disabled
+shadow: disabled
+```
+
+There are two forms of capacitance, *self* and *mutual capacitance*. In general, "capacitance" refers to mutual capacitance.
+
+=== end-column ===
+
 |           Capacitance           |
 |:-------------------------------:|
 |               $C$               |
 |       farad ($\text{F}$)        |
 | $A^{2}\;s^{4}\;kg^{-1}\;m^{-2}$ |
 
-There are two forms of capacitance, *self* and *mutual capacitance*. In general, "capacitance" refers to mutual capacitance.
+=== end-multi-column
 
 ## Self capacitance
 **The amount of electric charge required to raise the electric potential of an isolated conductor by one unit.**

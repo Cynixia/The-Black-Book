@@ -3,7 +3,7 @@
 
 ![[Buffer.svg|200]]
 
-Buffers isolate their input and output circuits and also improves voltage and current levels so stay within range for logical circuits.
+Buffers isolate their input and output circuits and also improves voltage and current levels so they stay within range for logical circuits.
 
 ### 3-state buffer
 **A buffer with an additional input control line.**

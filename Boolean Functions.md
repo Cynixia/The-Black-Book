@@ -14,4 +14,6 @@ $$B(A+D)+AC$$
 ## Terms
 **An occurrence of a literal or either a conjunction or disjunction of literals** in a function.
 
+Alternatively, terms are any combination of literals separated by a logical operation.
+
 The previous equation contains $8$ terms; $A$ (counted twice), $B$, $C$, $D$, $A+D$, $AC$, $B(A+D)$.

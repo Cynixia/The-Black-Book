@@ -1,11 +1,13 @@
 # Inductance
 **The tendency of an electrical conductor to oppose a change in the current flowing through it.**
 
-|                   Inductance                   |
-|:----------------------------------------------:|
-|                      $L$                       |
-|               henry ($\text{H}$)               |
-| $\text{kg}\;\text{m}^2\;\text{s}^{-2}\;A^{-2}$ |
+=== start-multi-column: Capacitance
+```column-settings
+number of columns: 2
+largest column: left
+border: disabled
+shadow: disabled
+```
 
 Inductance is defined as the ratio of the *induced voltage* to the *rate of change* of the *current* causing it.
 
@@ -14,6 +16,16 @@ An electrical conductor will *induce* a magnetic field around it when a *changin
 Inductance depends on the *geometry* of the conductor and the *magnetic permeability* of nearby materials, such as the core.
 
 A component designed specifically to add inductance is known as an [[inductor]] which usually consists of a coil of wire. The voltage an inductor induces across itself is caused by its *self inductance*.
+
+=== end-column ===
+
+|                   Inductance                   |
+|:----------------------------------------------:|
+|                      $L$                       |
+|               henry ($\text{H}$)               |
+| $\text{kg}\;\text{m}^2\;\text{s}^{-2}\;A^{-2}$ ||
+
+=== end-multi-column
 
 ## Mutual inductance
 **The phenomenon in which the magnetic flux caused by the current through an inductor induces a voltage in another in proximity.**

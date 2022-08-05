@@ -5,7 +5,7 @@ In practice, the radix complement is more easily found by adding $1$ to the *dim
 $$(r^n-1)-N$$
 This is because $r^n-1$ is the digit $r-1$ repeated $n$ times. 
 
-Thus, the diminished radix complement of a number is found by *complementing* each digit with respect to $b-1$. That is, the difference between each digit and $b-1$.
+Thus, the diminished radix complement of a number is found by *complementing* each digit with respect to $r-1$. That is, the difference between each digit and $r-1$.
 
 ## Binary numbers
 The 1's complement of a binary number $N$ is easily found by *inverting* every bit in $N$ then adding $1$.

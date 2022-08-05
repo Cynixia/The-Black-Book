@@ -26,18 +26,21 @@ The following is the computation of $-6\times 7=-42$, without and with sign exte
 ![[BinaryMultiplicationSignedComparison.svg]]
 
 ## Implementation
-### Adder tree
-A simple but *slow* implementation of binary multiplication is an [[adder]] tree. 
+### Unsigned multiplication
+#### Adder tree
+A simple but *slow* implementation of unsigned binary multiplication is an [[adder]] tree. 
 
 Partial products are formed using $m\times n$ AND gates. They are then summed to form the result using adders. $n-1$ adders of $m$ bit width are required. 
 
-The first adder receives an additional *zero* input since the *least significant bit* of the first partial product is taken as part of the result. It is appended to the *front* of the first partial product. Each successive adder does not receive the least significant bit of the *previous* partial product summation.
+The first adder receives an additional *zero* input since the *least significant bit* of the first partial product is taken as part of the result. It is appended to the *front* of the first partial product.
+
+Each successive adder does not receive the least significant bit of the *previous* partial product summation.
 
 Below is a 4 bit by 4 bit binary multiplier implemented by an adder tree.
 
 ![[BinaryMultiplicationAdderTree.svg]]
 
-### Iterative array
+#### Iterative array
 Binary multiplication can also be implemented as an [[Iterative Circuit|iterative array]], which is a faster method.
 
 Each *cell* of the array receives a carry-in and a bit of the *incoming* partial product sum (PPS), the multiplicand $m$, and the multiplier $n$. It computes the *current* partial product then adds it to the *partial product sum*.
@@ -49,3 +52,8 @@ Below is a 4 bit by 4 bit binary multiplier implemented by an iterative array. A
 ![[BinaryMultiplicationArrayCell.svg|550]]
 
 ![[BinaryMultiplicationArray.svg|875]]
+
+### Signed 2's complement multiplication
+#### Baugh-Wooley algorithm
+[[Baugh-Wooley Algorithm]]
+#unfinished
